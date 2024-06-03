@@ -14,7 +14,7 @@ export const registerUser = async ({ name,email, password }) => {
         });
         return (response);
     } catch (error) {
-        toast.error(error.response.data.errorMessage);
+        toast.error(error);
     }
 };
 
@@ -36,6 +36,6 @@ export const loginUser = async ({ email, password }) => {
         return true;
         
     } catch (error) {
-         toast.error(error.response.data.errorMessage);
+         toast.error(error);
     }
 };
