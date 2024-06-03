@@ -2,7 +2,7 @@ import axios from "axios";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-const backendUrl = `https://deploy-mern-api-quiz-app.vercel.app`;
+const backendUrl = `https://t-patel28-1999-gmail-com-cuvette-final-evaluation-server.vercel.app/`;
 
 export const registerUser = async ({ name,email, password }) => {
     try {
