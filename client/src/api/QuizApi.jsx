@@ -1,6 +1,6 @@
 import axios from "axios";
 import { Navigate } from "react-router-dom";
-const backendUrl = `http://localhost:3000/api/v1/quiz`;
+const backendUrl = `https://deploy-mern-api-quiz-app.vercel.app`;
 
 export const createQuiz = async (postPayload) => {
     try {
