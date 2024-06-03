@@ -13,15 +13,17 @@ mongoose
     .catch((error) => console.log("DB failed to connect", error))
 
 const CorsRules = {
-  origin: '*',
+  origin: ["https://t-patel28-1999-gmail-com-cuvette-final-evaluation-frontend.vercel.app"],
   methods: "GET, POST, PUT, DELETE",
-  optionsSuccessStatus: 200
+  optionsSuccessStatus: 200,
+  cridentials:true
 };
 app.use(cors(CorsRules));
 
 app.use("/api/v1/user", userRoute);
 app.use("/api/v1/quiz", quizRoute);
-
+app.use("/",(req,res)=>{
+    res.json("hello")
 app.use("*", (req, res) => {
     res.status(404).json({ errorMessage: "Route not found!" });
 });
