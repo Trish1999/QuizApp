@@ -14,7 +14,7 @@ function Dashboard() {
 
      const fetchAllQuiz = async () => {
        const result = await getAllQuizs();
-        setQuiz(result?.data);
+        setQuiz(result?.data || []) ;
   };
   
    useEffect(() => {
