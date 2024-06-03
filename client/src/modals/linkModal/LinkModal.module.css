@@ -1,0 +1,21 @@
+.btn{
+    background-color: rgb(67, 186, 67);
+    margin-top: 1rem;
+        border-radius: 0.3rem;
+        padding: 0.5rem;
+        width: 9rem;
+        border: none;
+        cursor: pointer;
+        transition: 0.3s;
+        box-shadow: 0 0 0.9em 0.25em rgba(0, 0, 0, 0.2);
+        font-weight: bold;
+        filter: brightness(80%)
+}
+.btn:hover {
+    color: #fff;
+    filter: brightness(100%);
+}
+.button,.header,.input{
+    display: flex;
+    justify-content: center;
+}

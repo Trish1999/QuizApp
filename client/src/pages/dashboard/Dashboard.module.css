@@ -1,0 +1,59 @@
+.main {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.content {
+    overflow-y: scroll;
+    margin-left: 15%;
+    padding: 2rem;
+    width: 100vw;
+    background-color: rgb(234, 235, 247);
+
+}
+.count1,.count2,.count3 {
+    width: 15rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    letter-spacing: 1px;
+    padding: 0.5rem;
+    font-size: 1.3rem;
+    font-weight:bolder;
+    margin:1rem;
+    text-align: center;
+}
+.count1{
+    color:rgb(241, 100, 18);
+}
+.count2 {
+    color: rgb(51, 186, 87);
+}
+.count3 {
+    color: rgb(106, 156, 226);
+}
+.displaynumbers{
+            display: flex;
+            justify-content: center;
+}
+.trendingquiz{
+    display: flex;
+    justify-content:flex-start;
+    flex:1;
+    flex-direction:row;
+    flex-wrap: wrap;
+    margin-left: 2rem;
+    
+}
+.quiz{
+    width: 15rem;
+        background-color: white;
+        border-radius: 0.5rem;
+        padding:5px;
+        font-weight: bolder;  
+        margin:0.6rem ;     
+}
+.quizheader{
+    display: flex;
+    justify-content:space-between;
+}

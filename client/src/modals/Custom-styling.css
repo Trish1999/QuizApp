@@ -1,0 +1,22 @@
+.customModal1 {
+    width: 30%;
+    height: 28%;
+    padding: 3rem;
+    background-color:white;
+        border-radius: 0.4rem;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.customModal2 {
+    width:30%;
+            padding: 3rem;
+    border-radius: 0.4rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.customModal3{
+    width: 30%;
+        padding: 3rem;
+        border-radius: 0.4rem;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }

@@ -1,0 +1,50 @@
+.navbar {
+    width: 15%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.2rem;
+    box-shadow: 0 0 0.8em 0.25em rgba(0, 0, 0, 0.1);
+}
+
+.navbar .logo {
+    margin-bottom: 8rem;
+    font-size: x-large;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+.navbar li {
+ margin-bottom: 20px;
+    text-align: center;
+}
+
+.navbar li a {
+    font-weight: bold;
+    display: block;
+    padding: 5%;
+    width: 91%;
+    color:black
+}
+
+.navbar li a:hover,.btn:hover {
+    background-color: rgb(220, 224, 241);
+    border:none;
+    width:90%;
+    box-shadow: 0 0 0.8em 0.25em rgba(0, 0, 0, 0.1);
+}
+.navbar .btn
+{
+    border:none;
+    width: 100%;
+    font-weight: bold;
+}

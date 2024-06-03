@@ -1,0 +1,55 @@
+.main {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.content {
+    overflow-y: scroll;
+    margin-left: 15%;
+    padding: 2rem;
+    width: 100vw;
+    background-color: rgb(234, 235, 247);
+
+}
+.customtable {
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+.content h1{
+    display:flex;
+    justify-content: center;
+}
+
+.customtable th,
+.customtable td {
+    padding: 0.6rem;
+    text-align: left;
+    border: none;
+   
+}
+
+.customtable th {
+    background-color: #548fe7;
+    
+}
+
+.evenrow {
+    background-color: #d8e2f1;
+    
+}
+
+.oddrow {
+    background-color: #aac2e6;
+}
+.icon{
+cursor: pointer;
+transition: 0.2s;
+filter: brightness(100%)
+}
+.icon:hover {
+    filter: brightness(70%);
+
+}
+

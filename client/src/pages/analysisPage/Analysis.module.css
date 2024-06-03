@@ -1,0 +1,55 @@
+.main {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.content {
+    overflow-y:scroll;
+    margin-left: 15%;
+    padding: 2rem;
+    width: 100vw;
+    background-color: rgb(234, 235, 247);
+
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.counts{
+    display:flex;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+}
+.count1,
+.count2,
+.count3
+{
+    width: 15rem;
+    background-color: white;
+    border-radius: 0.3rem;
+    padding: 0.5rem;
+    font-weight: bold;
+    margin: 0.5rem 0.6rem;
+    text-align: center;
+}
+.count{
+        width: 8rem;
+            background-color: white;
+            border-radius: 0.3rem;
+            padding: 0.3rem 1.5rem;
+            font-weight: bold;
+            margin: 0.4rem 1.2rem;
+            text-align: center;
+}
+.customtable {
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+.content h1 {
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,38 @@
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footerbtn1,.footerbtn2 {
+    margin-top: 1rem;
+    border-radius: 0.3rem;
+    padding: 0.5rem;
+    width: 9rem;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 0 0.9em 0.25em rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+    filter: brightness(80%)
+}
+
+.footerbtn2 {
+    background-color:rgb(135, 153, 235);
+    
+}
+
+.footerbtn1 {
+    background-color:rgba(246, 15, 15, 0.875);
+}
+
+.footerbtn1:hover {
+    background-color: rgba(246, 15, 15, 0.875);
+    color: #fff;
+    filter: brightness(100%);
+    
+}
+
+.footerbtn2:hover {
+    background-color:rgb(135, 153, 235);
+    color: #fff;
+    filter: brightness(100%)
+}

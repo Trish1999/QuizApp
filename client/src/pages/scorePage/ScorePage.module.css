@@ -1,0 +1,55 @@
+:root {
+    background-color: rgb(9, 9, 38);
+}
+
+.container {
+    margin: 4rem 9rem 4rem 9rem;
+    width: 70vw;
+    height: 80vh;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: white;
+    box-shadow: 0 0 0.4em 0.35em rgba(0, 0, 0, 0.1);
+    align-content: center;
+    text-align: center;
+    padding: 0rem 4rem;
+    overflow-wrap: break-word;
+}
+
+.trophy {
+     width: 35%;
+     height: 25%;
+}
+
+.thanku{
+    padding-top: 3rem;
+}
+
+@media (min-width: 300px) and (max-width: 780px) {
+    :root {
+        background-color: white;
+
+    }
+    .container {
+            margin: 4rem 9rem 4rem 9rem;
+            width: 100vw;
+            height: 100vh;
+            border-radius: 0px;
+            border: none;
+            background-color: white;
+            box-shadow:none;
+            align-content: center;
+            text-align: center;
+            padding: 0rem 4rem;
+            overflow-wrap: break-word;
+            font-size: x-large;
+    }
+    .top{
+        font-size: xx-large;
+    }
+    .trophy{
+        width:100%;
+        height:100%;
+    }
+
+}

@@ -1,0 +1,68 @@
+:root{
+background-color: rgb(231, 231, 245);
+}
+.container{
+    margin:4rem 9rem 4rem 9rem;
+    width: 80vw;
+    height: 80vh;
+    border:none;
+    background-color:white ;
+    box-shadow: 0 0 0.4em 0.35em rgba(0, 0, 0, 0.1);
+}
+.btn1,.btn2 {
+    margin-left: 1rem;
+    border: none;
+    padding: 0.5rem;
+    width: 10rem;
+    cursor: pointer;
+    transition: 0.3s;
+    background: transparent;
+    font-weight: bold;
+}
+.btn1:hover,.btn2:hover {
+    background-color:white;
+    border-radius: 0.3rem;
+    border: none;
+    box-shadow: 0 0 0.8em 0.25em rgba(0, 0, 0, 0.1);
+}
+.btn{
+    display: flex;
+    justify-content:center;
+    margin-bottom: 2rem;
+}
+.submit{
+    width: 15rem;
+    padding: 0.2rem;
+    background-color: rgb(139, 145, 246);
+    margin-top: 2rem;
+}
+.inputbox{
+    padding:0.4rem;
+    border:none;
+    width: 15rem;
+    background-color: rgb(231, 231, 245);
+    border-radius:0.4rem ;
+    margin-bottom: 2rem;
+}
+label{
+    font-weight: bold ;
+    margin-right: 1rem;
+}
+.form{
+    display: flex;
+    justify-content:center;
+    text-align: right;
+}
+input.error::placeholder {
+    color: red;
+}
+input.error{
+    padding: 0.4rem;
+    border: none;
+    width: 15rem;
+    background-color: rgb(231, 231, 245);
+    border-radius: 0.4rem;
+    margin-bottom: 2rem;
+}
+
+
