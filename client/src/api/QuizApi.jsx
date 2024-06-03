@@ -14,7 +14,7 @@ export const createQuiz = async (postPayload) => {
             localStorage.clear();
             Navigate("/");
         }
-        alert("Something went wrong");
+         console.log(error);
     }
 };
 
@@ -34,7 +34,7 @@ export const updateImpression = async ( quizId) => {
         return response.data;
     } catch (error) {
         console.log(error);
-        alert("Something went wrong");
+        
     }
 };
 export const updateCorrectAttempt = async ( quizId,questionId) => {
@@ -44,7 +44,7 @@ export const updateCorrectAttempt = async ( quizId,questionId) => {
         return response.data;
     } catch (error) {
         console.log(error);
-        alert("Something went wrong");
+     
     }
 };
 
@@ -55,7 +55,7 @@ export const updateIncorrectAttempt = async ( quizId,questionId) => {
         return response.data;
     } catch (error) {
         console.log(error);
-        alert("Something went wrong");
+        
     }
 };
 
@@ -66,7 +66,7 @@ export const updateOptionChoosen = async ( quizId,optionId) => {
         return response.data;
     } catch (error) {
         console.log(error);
-        alert("Something went wrong");
+        
     }
 };
 export const updateQuizDetailsById = async ( quizId,postPayload) => {
@@ -76,7 +76,7 @@ export const updateQuizDetailsById = async ( quizId,postPayload) => {
         return response.data;
     } catch (error) {
         console.log(error);
-        alert("Something went wrong");
+       
     }
 };
 
@@ -91,7 +91,7 @@ export const deleteQuiz = async (quizId) => {
         return response.data;
     } catch (error) {
         console.log(error);
-        alert("Something went wrong");
+       
     }
 };
 
@@ -104,6 +104,6 @@ export const getAllQuizs = async () => {
         return response.data;
     } catch (error) {
         console.log(error);
-        alert("Something went wrong");
+        
     }
 };

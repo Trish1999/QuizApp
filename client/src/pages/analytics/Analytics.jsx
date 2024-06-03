@@ -25,7 +25,7 @@ function Analytics(props) {
   
      const fetchAllQuiz = async () => {
        const result = await getAllQuizs();
-        setQuiz(result?.data);
+        setQuiz(result?.data || 0)
   };
 
   const datatoEdit = async (quizId) => {
