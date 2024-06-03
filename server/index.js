@@ -15,6 +15,7 @@ mongoose
 const CorsRules = {
   origin: ["https://t-patel28-1999-gmail-com-cuvette-final-evaluation-frontend.vercel.app"],
   methods: "GET, POST, PUT, DELETE",
+  allowedHeaders: "Content-Type, Authorization",
   optionsSuccessStatus: 200,
   cridentials:true
 };
