@@ -13,9 +13,11 @@ mongoose
     .catch((error) => console.log("DB failed to connect", error))
 
 const CorsRules = {
-  origin: '*',
+  origin: "*",
   methods: "GET, POST, PUT, DELETE",
-  optionsSuccessStatus: 200
+  allowedHeaders: "Content-Type, Authorization",
+  optionsSuccessStatus: 200,
+  cridentials:true
 };
 app.use(cors(CorsRules));
 

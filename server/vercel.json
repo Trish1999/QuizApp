@@ -1,11 +1,10 @@
-{"version":2,
-"builds": [
-    {"src":"App.jsx","use": "@vercel/node"}
-],
-"routes":[
-    {
-        "src":"/(.*)",
-        "dest":"/App.jsx"
-    }
-]
+{
+  "version": 2,
+  "builds": [
+    { "src": "*.js", "use": "@vercel/node" }
+  ],
+ "routes": [
+    { "src": "/quiz/:quizId/:quizType", "dest": "/index.html" },
+    { "src": "/(.*)", "dest": "/" }
+  ]
 }
