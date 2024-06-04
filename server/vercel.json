@@ -8,6 +8,6 @@
     { "src": "/(.*)", "dest": "/" }
   ],
     "rewrites": [
-    { "src": "/quiz/:quizId/:quizType", "dest": "/index.html" }
+    { "source": "/quiz/:quizId/:quizType", "destination": "/index.html" }
   ]
 }
