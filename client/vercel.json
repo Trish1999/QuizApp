@@ -1,10 +1,12 @@
 {
   "version": 2,
   "builds": [
-    { "src": "*.js", "use": "@vercel/node" }
+    { "src": "package.json", "use": "@vercel/static-build" }
   ],
- "routes": [
-    { "src": "/quiz/:quizId/:quizType", "dest": "/index.html" },
-    { "src": "/(.*)", "dest": "/" }
+  "routes": [
+    { "src": "/(.*)", "dest": "/index.html" }
+  ],
+  "rewrites": [
+    { "source": "/quiz/:quizId/:quizType", "destination": "/index.html" }
   ]
 }
