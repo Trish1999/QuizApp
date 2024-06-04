@@ -1,6 +1,6 @@
 import axios from "axios";
 import { Navigate } from "react-router-dom";
-const backendUrl = https://t-patel28-1999-gmail-com-cuvette-final-evaluation-server.vercel.app/api/v1/quiz`;
+const backendUrl = `https://t-patel28-1999-gmail-com-cuvette-final-evaluation-server.vercel.app/api/v1/quiz`;
 
 export const createQuiz = async (postPayload) => {
     try {
