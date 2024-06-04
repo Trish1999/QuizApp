@@ -2,7 +2,7 @@ import axios from "axios";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-const backendUrl = `https://t-patel28-1999-gmail-com-cuvette-final-evaluation-server.vercel.app//api/v1/user`;
+const backendUrl = `https://t-patel28-1999-gmail-com-cuvette-final-evaluation-server.vercel.app/api/v1/user`;
 
 export const registerUser = async ({ name,email, password }) => {
     try {
