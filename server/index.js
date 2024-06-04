@@ -13,7 +13,7 @@ mongoose
     .catch((error) => console.log("DB failed to connect", error))
 
 const CorsRules = {
-  origin: ["https://t-patel28-1999-gmail-com-cuvette-final-evaluation-frontend.vercel.app"],
+  origin: "*",
   methods: "GET, POST, PUT, DELETE",
   allowedHeaders: "Content-Type, Authorization",
   optionsSuccessStatus: 200,
@@ -23,8 +23,7 @@ app.use(cors(CorsRules));
 
 app.use("/api/v1/user", userRoute);
 app.use("/api/v1/quiz", quizRoute);
-app.use("/",(req,res)=>{
-    res.json("hello")
+
 app.use("*", (req, res) => {
     res.status(404).json({ errorMessage: "Route not found!" });
 });
