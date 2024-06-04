@@ -3,11 +3,8 @@
   "builds": [
     { "src": "*.js", "use": "@vercel/node" }
   ],
-  "routes": [
- 
+ "routes": [
+    { "src": "/quiz/:quizId/:quizType", "dest": "/index.html" },
     { "src": "/(.*)", "dest": "/" }
-  ],
-    "rewrites": [
-    { "source": "/quiz/:quizId/:quizType", "destination": "/index.html" }
   ]
 }
