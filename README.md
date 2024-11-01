@@ -67,16 +67,7 @@ A comprehensive *Quiz App* built using the MERN stack (MongoDB, Express.js, Reac
 - Node.js installed
 - MongoDB instance
 
-### Installation
-1. Clone the repository:
-   bash
-   git clone https://github.com/yourusername/storyblogapp.git
    
-2. Install dependencies:
-   bash
-   cd storyblogapp
-   npm install
-   
-3. Start the app:
+##  Start the app:
    bash
    npm start
